@@ -115,9 +115,6 @@ func RunTicks(ctx Ctx,
 
 		timer.Reset(toWaitDuration2)
 	}
-
 	timer.Stop()
-	lgr.Info(ctx, logPrefix+" Now I'm finishing with ticks :((")
-	return
-
+	lgr.Info(ctx, logPrefix+" Now I've finished with ticks :((")
 }
